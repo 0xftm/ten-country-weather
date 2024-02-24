@@ -1,0 +1,26 @@
+{
+  "name": "ten-country-weather",
+  "version": "1.0.1",
+  "description": "Fetches weather data for 10 random countries.",
+  "main": "index.js",
+  "bin": {
+    "ten-country-weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/longpd91/ten-country-weather.git"
+  },
+  "author": "longpd91@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/longpd91/ten-country-weather/issues"
+  },
+  "homepage": "https://github.com/longpd91/ten-country-weather#readme",
+  "keywords": ["ten-country-weather", "country", "weather"],
+  "dependencies": {
+    "longpd-weather-lib": "^1.0.2" 
+  }
+}
